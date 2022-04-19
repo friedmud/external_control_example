@@ -1,0 +1,4 @@
+app_name = external_control_example
+allow_warnings = false
+allow_unused = false
+allow_override = false
