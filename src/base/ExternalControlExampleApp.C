@@ -4,6 +4,8 @@
 #include "ModulesApp.h"
 #include "MooseSyntax.h"
 
+#include "OtherApp.h"
+
 InputParameters
 ExternalControlExampleApp::validParams()
 {
@@ -36,6 +38,8 @@ void
 ExternalControlExampleApp::registerApps()
 {
   registerApp(ExternalControlExampleApp);
+
+  OtherApp::registerApps();
 }
 
 /***************************************************************************************************
